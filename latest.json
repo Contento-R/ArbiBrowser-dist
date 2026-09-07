@@ -1,7 +1,7 @@
 {
-  "version": "v0.4.116",
-  "name": "ArbiBrowser-update-0.4.116.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.116/ArbiBrowser-update-0.4.116.tar.gz",
-  "sha256": "ed76c469eefaac3a8a2fa551478196bc5c6c56c81cbad63f8a9443d62772e575",
-  "notes": "## ArbiBrowser v0.4.116\n\nЧто изменилось в этой версии:\n\n### 🔧 Исправление — Закрыли токен в терминале — закрывается и последняя вкладка биржи\n\nРаньше единственная вкладка биржи не закрывалась никогда, даже если её токен уже закрыт в терминале — она висела без объяснений. Теперь вкладки браузера повторяют вкладки терминала полностью; страницы кошелька и вывода по-прежнему не трогаются, а следующая заявка сама откроет нужную страницу.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.117",
+  "name": "ArbiBrowser-update-0.4.117.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.117/ArbiBrowser-update-0.4.117.tar.gz",
+  "sha256": "3ab5105dcae942ad49cec814888809f1482aea88622d0eb44c5b4101c177b9a1",
+  "notes": "## ArbiBrowser v0.4.117\n\nОбновление ArbiBrowser. Подробности — в списке изменений внутри программы (кнопка «✨ Что нового?»).\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
