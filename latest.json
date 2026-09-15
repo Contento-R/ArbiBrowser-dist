@@ -1,7 +1,7 @@
 {
-  "version": "v0.4.148",
-  "name": "ArbiBrowser-update-0.4.148.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.148/ArbiBrowser-update-0.4.148.tar.gz",
-  "sha256": "572d0ec30a0db0882e8303b786f6c40b1742d1b0dac1b4ff0932864c152b3784",
-  "notes": "## ArbiBrowser v0.4.148\n\nОбновление ArbiBrowser. Подробности — в списке изменений внутри программы (кнопка «✨ Что нового?»).\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.149",
+  "name": "ArbiBrowser-update-0.4.149.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.149/ArbiBrowser-update-0.4.149.tar.gz",
+  "sha256": "abbd850cd8e6d1ffdade64e76896e5027752f5dbf6165361be708d701dcb1600",
+  "notes": "## ArbiBrowser v0.4.149\n\nОбновление ArbiBrowser. Подробности — в списке изменений внутри программы (кнопка «✨ Что нового?»).\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
