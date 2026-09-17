@@ -1,7 +1,7 @@
 {
-  "version": "v0.4.185",
-  "name": "ArbiBrowser-update-0.4.185.tar.gz",
-  "url": "https://raw.githubusercontent.com/Contento-R/ArbiBrowser-dist/main/ArbiBrowser-update-0.4.185.tar.gz",
-  "sha256": "f8792ff8510ee57a83d20af16abfab2024bafe3ba28fdae6a55c42794ccbfd90",
-  "notes": "## ArbiBrowser v0.4.185\n\nЧто изменилось в этой версии:\n\n### 🔧 Исправление — Переключение депозита: монета определяется точно, без «похожих»\n\nПоиск монеты в списке депозита мог взять похожее название вместо нужного (по запросу DEP выбиралась COINDEPO — другой токен) и переключить счёт не той монете. Теперь совпадение только точное, а если монеты в списке депозита нет, так и написано.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.186",
+  "name": "ArbiBrowser-update-0.4.186.tar.gz",
+  "url": "https://raw.githubusercontent.com/Contento-R/ArbiBrowser-dist/main/ArbiBrowser-update-0.4.186.tar.gz",
+  "sha256": "baf9e764d0ea202dd22f6aa8438a6852a0ffe29baabcca0e19c1afff366ab72c",
+  "notes": "## ArbiBrowser v0.4.186\n\nЧто изменилось в этой версии:\n\n### 🔧 Исправление — Переключение депозита: монета ищется по тикеру, а не по описанию\n\nВ списке депозита совпадение проверялось по всему тексту пункта, поэтому по запросу «AI» находился AGT, в описании которого есть эти буквы. Теперь сверяется только тикер монеты.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
