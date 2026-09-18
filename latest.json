@@ -1,7 +1,7 @@
 {
-  "version": "v0.4.198",
-  "name": "ArbiBrowser-update-0.4.198.tar.gz",
-  "url": "https://raw.githubusercontent.com/Contento-R/ArbiBrowser-dist/main/ArbiBrowser-update-0.4.198.tar.gz",
-  "sha256": "c077b5b0d9da566801042131e4fc6ff8ef2e2be2f8940d5ee1a5f481744b6d3f",
-  "notes": "## ArbiBrowser v0.4.198\n\nЧто изменилось в этой версии:\n\n### ✨ Новое — Ликвидность с GMGN — для сканера и терминала\n\nБраузер умеет читать ликвидность токена со страницы GMGN и отдавать её терминалу: серверу это число недоступно, а из браузера страница открывается как у человека. Значение кэшируется на сервере и показывается всем — держать браузер открытым достаточно одному.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.199",
+  "name": "ArbiBrowser-update-0.4.199.tar.gz",
+  "url": "https://raw.githubusercontent.com/Contento-R/ArbiBrowser-dist/main/ArbiBrowser-update-0.4.199.tar.gz",
+  "sha256": "9245e9e9b859e4881360a738545f6b8561a80e203eccd9134a7935f0c452475b",
+  "notes": "## ArbiBrowser v0.4.199\n\nЧто изменилось в этой версии:\n\n### 🔧 Исправление — Чтение ликвидности GMGN убрано из браузера\n\nУ GMGN есть собственный API, и ликвидность теперь берёт сервер напрямую — браузеру эта работа больше не достаётся, он занимается только биржами.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
