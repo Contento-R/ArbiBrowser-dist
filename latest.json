@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.222",
-  "name": "ArbiBrowser-update-0.4.222.tar.gz",
-  "url": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.222.tar.gz",
-  "urlMirror": "https://raw.githubusercontent.com/Contento-R/ArbiBrowser-dist/main/ArbiBrowser-update-0.4.222.tar.gz",
-  "sha256": "156480fa684f136f5a29da07343438d1929b7db24efbb92e40f80c6024a0c1f5",
-  "notes": "## ArbiBrowser v0.4.222\n\nЧто изменилось в этой версии:\n\n### 🔧 Исправление — BingX снизил лимит заявки — остаток доставляется в той же заявке\n\nBingX время от времени снижает потолок одной заявки по монете (у BASECAT был 538 USDT, стал 500). Программа помнила старый лимит, резала заявку на части по 527 USDT, и биржа отказывала — половина покупки просто не вставала. Теперь, если часть упёрлась в новый лимит и запрос по ней на биржу не ушёл, программа запоминает новый лимит и сразу доставляет остаток частями поменьше. Заодно «отмена всех ордеров» больше не отчитывается ошибкой, когда отмена на самом деле прошла, просто окно подтверждения было перекрыто другим.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.223",
+  "name": "ArbiBrowser-update-0.4.223.tar.gz",
+  "url": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.223.tar.gz",
+  "urlMirror": "https://raw.githubusercontent.com/Contento-R/ArbiBrowser-dist/main/ArbiBrowser-update-0.4.223.tar.gz",
+  "sha256": "7ac70e5272913a30f998dc7fc66586e5b813d1b4509b0c94c989a4937aa1c842",
+  "notes": "## ArbiBrowser v0.4.223\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — Проверка «Счёта получения» BingX не задерживает заявки\n\nТерминал теперь сам следит, чтобы депозит BingX ложился на Спот, и при зачислении просит браузер проверить счёт получения монеты. Эта проверка идёт в фоновой вкладке, не держит очередь заявок и пропускает ход, если в эту секунду выставляется ордер.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
