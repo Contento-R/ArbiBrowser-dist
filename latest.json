@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.223",
-  "name": "ArbiBrowser-update-0.4.223.tar.gz",
-  "url": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.223.tar.gz",
-  "urlMirror": "https://raw.githubusercontent.com/Contento-R/ArbiBrowser-dist/main/ArbiBrowser-update-0.4.223.tar.gz",
-  "sha256": "7ac70e5272913a30f998dc7fc66586e5b813d1b4509b0c94c989a4937aa1c842",
-  "notes": "## ArbiBrowser v0.4.223\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — Проверка «Счёта получения» BingX не задерживает заявки\n\nТерминал теперь сам следит, чтобы депозит BingX ложился на Спот, и при зачислении просит браузер проверить счёт получения монеты. Эта проверка идёт в фоновой вкладке, не держит очередь заявок и пропускает ход, если в эту секунду выставляется ордер.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.224",
+  "name": "ArbiBrowser-update-0.4.224.tar.gz",
+  "url": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.224.tar.gz",
+  "urlMirror": "https://raw.githubusercontent.com/Contento-R/ArbiBrowser-dist/main/ArbiBrowser-update-0.4.224.tar.gz",
+  "sha256": "077fa188faa225caf9b19974df194f2e46c3faa63d00dd26d934ad895a6d0e6b",
+  "notes": "## ArbiBrowser v0.4.224\n\nЧто изменилось в этой версии:\n\n### 🔧 Исправление — Биржа подписывает монету другим именем — продажа всё равно уходит сразу\n\nБывает, что биржа показывает пару под другим именем (например, USEPAID на BingX подписана «PAID»). Раньше браузер в такой момент останавливал заявку и спрашивал подтверждение. Теперь он узнаёт это имя заранее, пока открыта пара и идёт депозит, и заявка при зачислении уходит без остановки. Чужая монета на странице по-прежнему блокирует ордер.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
