@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.230",
-  "name": "ArbiBrowser-update-0.4.230.tar.gz",
-  "url": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.230.tar.gz",
-  "urlMirror": "https://raw.githubusercontent.com/Contento-R/ArbiBrowser-dist/main/ArbiBrowser-update-0.4.230.tar.gz",
-  "sha256": "83f9c19689357bad8a677312ea3ea0aecd936f8e69fc61f3f1500e8fe0560a21",
-  "notes": "## ArbiBrowser v0.4.230\n\nЧто изменилось в этой версии:\n\n### 🔧 Исправление — Продажа на BingX: проверка баланса на форме перепроверена и покрыта тестами\n\nРазбор строки «Дост. … STONK» вынесен в отдельную проверяемую функцию: правильно читает числа в формате биржи («2,029.82» и «1 074,30»), не путает баланс со строкой «Макс.» и с похожим тикером. Если баланса монеты на форме хватает — форма не переключается «Купить → Продать», иначе переключается, как раньше. Лишняя строка про полупрозрачную кнопку больше не повторяется в журнале.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.231",
+  "name": "ArbiBrowser-update-0.4.231.tar.gz",
+  "url": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.231.tar.gz",
+  "urlMirror": "https://raw.githubusercontent.com/Contento-R/ArbiBrowser-dist/main/ArbiBrowser-update-0.4.231.tar.gz",
+  "sha256": "d47924af106ab690d37faedde7fefc0431ab71196a3813499b3621c2bb3f84e6",
+  "notes": "## ArbiBrowser v0.4.231\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — BingX: переключение «Купить → Продать» перед заявкой — без лишней паузы\n\nКогда форма стоит на другой стороне, браузер переключает её и раньше ждал фиксированные 0,2 с. Теперь он ждёт ровно до момента, когда сторона стала активной (обычно десятки миллисекунд). Продажа после серии покупок уходит быстрее примерно на 0,3 с.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
