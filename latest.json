@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.225",
-  "name": "ArbiBrowser-update-0.4.225.tar.gz",
-  "url": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.225.tar.gz",
-  "urlMirror": "https://raw.githubusercontent.com/Contento-R/ArbiBrowser-dist/main/ArbiBrowser-update-0.4.225.tar.gz",
-  "sha256": "a89600b45c7a61e5d11dfa62e2cfbb1036745b0cb7ea33e4e97fd0a7e41395a6",
-  "notes": "## ArbiBrowser v0.4.225\n\nОбновление ArbiBrowser. Подробности — в списке изменений внутри программы (кнопка «✨ Что нового?»).\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.226",
+  "name": "ArbiBrowser-update-0.4.226.tar.gz",
+  "url": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.226.tar.gz",
+  "urlMirror": "https://raw.githubusercontent.com/Contento-R/ArbiBrowser-dist/main/ArbiBrowser-update-0.4.226.tar.gz",
+  "sha256": "c94eae185d30afeba0476e472079d266e83a7ea1d5e5ee3375d7ad59ef77ac93",
+  "notes": "## ArbiBrowser v0.4.226\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — Продажа на BingX — на ~0,2 с быстрее\n\nПеред продажей браузер переключал форму «Купить → Продать», чтобы биржа перечитала баланс монеты. Теперь он сначала смотрит «Доступно» на странице: если баланса уже хватает на заявку, переключение пропускается и заявка уходит сразу. Если баланс на странице устарел, переключение делается, как раньше.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
