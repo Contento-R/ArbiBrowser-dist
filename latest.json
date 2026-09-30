@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.227",
-  "name": "ArbiBrowser-update-0.4.227.tar.gz",
-  "url": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.227.tar.gz",
-  "urlMirror": "https://raw.githubusercontent.com/Contento-R/ArbiBrowser-dist/main/ArbiBrowser-update-0.4.227.tar.gz",
-  "sha256": "e51bf7b281f6b80abf06f09337191e8cf904610f497cd49d65d74662954b78cb",
-  "notes": "## ArbiBrowser v0.4.227\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — Продажа на BingX без лишнего переключения формы; история ордеров — одним чтением на все монеты\n\nБраузер теперь правильно находит на странице BingX доступный баланс монеты (подпись «Дост.»). Если его хватает на продажу, форма не переключается «Купить → Продать», и заявка уходит сразу. История ордеров читается одной вкладкой сразу для всех монет биржи: терминалу больше не нужно отдельное чтение под каждую монету.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.228",
+  "name": "ArbiBrowser-update-0.4.228.tar.gz",
+  "url": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.228.tar.gz",
+  "urlMirror": "https://raw.githubusercontent.com/Contento-R/ArbiBrowser-dist/main/ArbiBrowser-update-0.4.228.tar.gz",
+  "sha256": "b3a0763ca64826af79da02c1be2ed45c3241c49aae5f756cdea6a0bfc9c9192e",
+  "notes": "## ArbiBrowser v0.4.228\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — BingX: заявка не ждёт «тусклую» кнопку — минус до 1,5 с\n\nПосле перезапуска браузера кнопка «Купить/Продать» на BingX иногда остаётся полупрозрачной, хотя нажимается нормально. Браузер ждал, пока она «проявится», до полутора секунд на каждой заявке. Теперь полупрозрачная кнопка нажимается сразу; по-настоящему заблокированную кнопку браузер ждёт, как и раньше.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
