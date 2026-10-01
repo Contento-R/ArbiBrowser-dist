@@ -1,8 +1,7 @@
 {
   "version": "v0.4.233",
   "name": "ArbiBrowser-update-0.4.233.tar.gz",
-  "url": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.233.tar.gz",
-  "urlMirror": "https://raw.githubusercontent.com/Contento-R/ArbiBrowser-dist/main/ArbiBrowser-update-0.4.233.tar.gz",
-  "sha256": "68f32a838746669752c9059293db5e9ea67fc816cb4c998016b2814efd3ab611",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.233/ArbiBrowser-update-0.4.233.tar.gz",
+  "sha256": "fcbee9b5665ce484ed41d222b04d2e3c7229d9eb1a6925f305284ed51273e00c",
   "notes": "## ArbiBrowser v0.4.233\n\nЧто изменилось в этой версии:\n\n### 🔒 Надёжность — Заявка не уходит, если биржа подменила цену\n\nСлучай 1 октября на MEXC: ввели цену 0.027001, чтобы забрать заявку из стакана, а биржа тихо поставила в поле 0.026978 — заявка ушла и села в стакан ниже. Раньше такая подмена проходила проверку как «почти та же цена». Теперь цена в форме обязана совпасть с заданной до последнего знака (округление шага цены биржей по-прежнему допускается); при подмене заявка НЕ отправляется, в журнале видно, что хотели и что было в поле. Касается BingX, MEXC и XT.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
