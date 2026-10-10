@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.238",
-  "name": "ArbiBrowser-update-0.4.238.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.238/ArbiBrowser-update-0.4.238.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.238.tar.gz",
-  "sha256": "03b42019af0d89e49f73962472940c96449402085c0019e9d3b0851f8936b908",
-  "notes": "## ArbiBrowser v0.4.238\n\nЧто изменилось в этой версии:\n\n### 🔧 Исправление — Кнопка «Обновление» снова ставит обновление\n\nВ 0.4.236 и 0.4.237 ошибка в коде скачивания отбрасывала уже скачанный архив, и обновиться кнопкой было нельзя; панель при этом показывала невнятное «HTTP 404». Исправлено, а если обновление не встанет, панель теперь пишет настоящую причину. С версий 0.4.236 и 0.4.237 на эту нужно перейти один раз вручную — скриптом update-now.ps1 или установщиком.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.239",
+  "name": "ArbiBrowser-update-0.4.239.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.239/ArbiBrowser-update-0.4.239.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.239.tar.gz",
+  "sha256": "7dc685cf51e7899c9bfc4924b4e0629623cde2b90e0bc051e97ec9011b371c2a",
+  "notes": "## ArbiBrowser v0.4.239\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — Заявки MEXC, BingX и XT больше не ждут 9 секунд за прогревом формы\n\nПрогрев формы после первой продажи занимал 9 секунд на каждом вызове и держал профиль занятым: заявка, пришедшая в это время, ждала его в очереди. Теперь прогрев проверяет видимую кнопку заявки, а не первую попавшуюся, и укладывается в доли секунды. Сам выстрел заявки как и был — около полсекунды.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
