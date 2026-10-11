@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.244",
-  "name": "ArbiBrowser-update-0.4.244.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.244/ArbiBrowser-update-0.4.244.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.244.tar.gz",
-  "sha256": "381c56ceed5b9fe0f1d6483eda0735f59e7280004cfe41389c201ddc74bd9e11",
-  "notes": "## ArbiBrowser v0.4.244\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — MEXC: запасная тёплая вкладка — новая пара открывается за 1–2 с вместо 3–4\n\nВ затишье (20 секунд без заявок и прогревов) программа заранее держит одну загруженную вкладку MEXC на тихой паре USDC/USDT. Когда вы открываете новую пару, она получает эту вкладку сменой пары внутри страницы, а не холодной загрузкой с нуля; следующая запасная поднимается снова в затишье. Место в пуле вкладок она не занимает, уборка и усыпление её не трогают. Цена — одна лишняя вкладка в памяти. Выключить: ARBI_MEXC_SPARE_PAIR=0 в .env; другая тихая пара — ARBI_MEXC_SPARE_PAIR=XXX_USDT. В журнале: «[запасная вкладка] отдана паре … смена пары N мс».\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.245",
+  "name": "ArbiBrowser-update-0.4.245.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.245/ArbiBrowser-update-0.4.245.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.245.tar.gz",
+  "sha256": "fb872ed50dcade3f22d0d4181de84869570cb46f892f6c7c46de59d015c6f96c",
+  "notes": "## ArbiBrowser v0.4.245\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — Запасная вкладка MEXC выключена по замеру; лёгкий режим подтверждён\n\nЗамер на проде: смена пары в запасной вкладке занимает 2,9 с, а холодное открытие в лёгком режиме 2,0–2,5 с (вчера было 3,6 с). Запасная вкладка проигрывает и по умолчанию выключена; включить для проверки можно через ARBI_MEXC_SPARE_PAIR=USDC_USDT. Лёгкий режим (без шрифтов, рекламы, а с ARBI_LIGHT_PAGES=chart и без графиков) действует только на вкладки, которые программа открывает сама; ваши ручные вкладки и вкладки, восстановленные после перезапуска, грузятся как обычно.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
