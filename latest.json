@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.245",
-  "name": "ArbiBrowser-update-0.4.245.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.245/ArbiBrowser-update-0.4.245.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.245.tar.gz",
-  "sha256": "fb872ed50dcade3f22d0d4181de84869570cb46f892f6c7c46de59d015c6f96c",
-  "notes": "## ArbiBrowser v0.4.245\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — Запасная вкладка MEXC выключена по замеру; лёгкий режим подтверждён\n\nЗамер на проде: смена пары в запасной вкладке занимает 2,9 с, а холодное открытие в лёгком режиме 2,0–2,5 с (вчера было 3,6 с). Запасная вкладка проигрывает и по умолчанию выключена; включить для проверки можно через ARBI_MEXC_SPARE_PAIR=USDC_USDT. Лёгкий режим (без шрифтов, рекламы, а с ARBI_LIGHT_PAGES=chart и без графиков) действует только на вкладки, которые программа открывает сама; ваши ручные вкладки и вкладки, восстановленные после перезапуска, грузятся как обычно.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.246",
+  "name": "ArbiBrowser-update-0.4.246.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.246/ArbiBrowser-update-0.4.246.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.246.tar.gz",
+  "sha256": "9c17e90edc934a619c9e41ecd98a7058f9e3fb018750675dda80024f95769319",
+  "notes": "## ArbiBrowser v0.4.246\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — BingX: история ордеров больше не мешает заявкам; запасные вкладки BingX и XT для замера\n\nНа BingX фоновая страница истории просыпалась ровно в момент заявки, и заявка 12 секунд ждала ответа биржи. Теперь, как и на MEXC, история поднимает тяжёлую страницу только в затишье (20 секунд без заявок), а если заявка пришла во время чтения, чтение отступает. Запасная тёплая вкладка включена на BingX и XT для замера (на MEXC по замеру выключена): в журнале смотрите «[запасная вкладка] BingX/XT: отдана паре … смена пары N мс». Выключить: ARBI_BINGX_SPARE_PAIR=0, ARBI_XT_SPARE_PAIR=0.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
