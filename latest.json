@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.246",
-  "name": "ArbiBrowser-update-0.4.246.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.246/ArbiBrowser-update-0.4.246.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.246.tar.gz",
-  "sha256": "9c17e90edc934a619c9e41ecd98a7058f9e3fb018750675dda80024f95769319",
-  "notes": "## ArbiBrowser v0.4.246\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — BingX: история ордеров больше не мешает заявкам; запасные вкладки BingX и XT для замера\n\nНа BingX фоновая страница истории просыпалась ровно в момент заявки, и заявка 12 секунд ждала ответа биржи. Теперь, как и на MEXC, история поднимает тяжёлую страницу только в затишье (20 секунд без заявок), а если заявка пришла во время чтения, чтение отступает. Запасная тёплая вкладка включена на BingX и XT для замера (на MEXC по замеру выключена): в журнале смотрите «[запасная вкладка] BingX/XT: отдана паре … смена пары N мс». Выключить: ARBI_BINGX_SPARE_PAIR=0, ARBI_XT_SPARE_PAIR=0.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.247",
+  "name": "ArbiBrowser-update-0.4.247.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.247/ArbiBrowser-update-0.4.247.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.247.tar.gz",
+  "sha256": "f9df63114bac8b452411f5835d487a79601b70692d352a6e7e12cec007836a5b",
+  "notes": "## ArbiBrowser v0.4.247\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — BingX: заявка больше не ждёт прогрев вкладок-частей\n\nПрогрев пары на BingX открывает главную вкладку и две вкладки-части под лимит объёма, это 8–10 секунд, и заявка, пришедшая в это время, стояла за ними в очереди (3–6 секунд). Теперь, если заявка уже ждёт, части уступают ей дорогу: недостающие дооткроются следующим прогревом, а заявка с нехваткой частей идёт как раньше, по очереди в главной вкладке.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
