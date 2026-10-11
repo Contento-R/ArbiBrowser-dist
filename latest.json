@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.247",
-  "name": "ArbiBrowser-update-0.4.247.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.247/ArbiBrowser-update-0.4.247.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.247.tar.gz",
-  "sha256": "f9df63114bac8b452411f5835d487a79601b70692d352a6e7e12cec007836a5b",
-  "notes": "## ArbiBrowser v0.4.247\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — BingX: заявка больше не ждёт прогрев вкладок-частей\n\nПрогрев пары на BingX открывает главную вкладку и две вкладки-части под лимит объёма, это 8–10 секунд, и заявка, пришедшая в это время, стояла за ними в очереди (3–6 секунд). Теперь, если заявка уже ждёт, части уступают ей дорогу: недостающие дооткроются следующим прогревом, а заявка с нехваткой частей идёт как раньше, по очереди в главной вкладке.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.248",
+  "name": "ArbiBrowser-update-0.4.248.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.248/ArbiBrowser-update-0.4.248.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.248.tar.gz",
+  "sha256": "edd54a1a3a02b991169b4707fc70c943fa2332e0a17c07cc4d49247e0bc60460",
+  "notes": "## ArbiBrowser v0.4.248\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — Заявка больше не ждёт уборку вкладок и проверку счёта депозита\n\nЗаявка WOJAK на MEXC пролежала в очереди 5 секунд при выстреле 0,6 с: цикл заявок ждал уборку вкладок, а уборка ждала проверку счёта депозита на BingX в том же профиле. Теперь уборка и проверка депозита идут в фоновой очереди, как чтение истории, и заявки их не ждут. Запасная вкладка BingX выключена по замеру (смена пары 2,4 с, холодное открытие 2,2–3,0 с, выигрыша нет); на XT пока оставлена для замера.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
