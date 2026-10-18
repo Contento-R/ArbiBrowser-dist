@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.258",
-  "name": "ArbiBrowser-update-0.4.258.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.258/ArbiBrowser-update-0.4.258.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.258.tar.gz",
-  "sha256": "3c87e5d193cb42b1ea7136519ed5868ca472e0cc781ccff3b877946d549553b5",
-  "notes": "## ArbiBrowser v0.4.258\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — BingX: подготовка к мгновенной отмене вывода\n\nПрограмма запоминает, какой командой сайт BingX отменяет вывод, — чтобы следующей версией отменять вывод примерно за секунду, без открытия страницы. Ничего нажимать не нужно: достаточно, чтобы во вкладке BingX открылась страница вывода или истории. Пароли, cookie и ключи не записываются.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.259",
+  "name": "ArbiBrowser-update-0.4.259.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.259/ArbiBrowser-update-0.4.259.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.259.tar.gz",
+  "sha256": "5fca153c4610a1966bf48b305a9b52300fc7951e1059a5b9a292247d1cfaa521",
+  "notes": "## ArbiBrowser v0.4.259\n\nЧто изменилось в этой версии:\n\n### 🔧 Исправление — BingX: короче запись для отмены вывода\n\nЗапись, которую программа ведёт для будущей мгновенной отмены вывода, стала в разы короче: из неё убраны тексты подписей сайта, остались только нужные адреса.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
