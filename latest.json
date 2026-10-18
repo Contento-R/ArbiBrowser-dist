@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.260",
-  "name": "ArbiBrowser-update-0.4.260.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.260/ArbiBrowser-update-0.4.260.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.260.tar.gz",
-  "sha256": "ab2fb89b0264dfae7f4ee6d4bb3d7087d59760735667b258934b39c9cad0ff7a",
-  "notes": "## ArbiBrowser v0.4.260\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — BingX: отмена вывода за секунду\n\nКнопка «Отменить» вывод в терминале теперь срабатывает примерно за секунду: программа отдаёт команду отмены прямо из уже открытой вкладки BingX, не открывая страницу вывода. Если похожих выводов несколько и нельзя понять, какой ваш, ничего не отменяется — терминал скажет об этом. Запись для поиска команды отмены выключена — она больше не нужна.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.261",
+  "name": "ArbiBrowser-update-0.4.261.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.261/ArbiBrowser-update-0.4.261.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.261.tar.gz",
+  "sha256": "191081e528cdf3bfd18e6fbc3da746b0371759888e481593da378bbf27519194",
+  "notes": "## ArbiBrowser v0.4.261\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — BingX: отмена вывода ещё быстрее\n\nОтмена вывода BingX сокращена на один-два обмена с биржей: номер вывода из терминала пробуется сразу, одновременно с поиском по списку, а проверка результата идёт уже после ответа терминалу.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
