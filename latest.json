@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.261",
-  "name": "ArbiBrowser-update-0.4.261.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.261/ArbiBrowser-update-0.4.261.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.261.tar.gz",
-  "sha256": "191081e528cdf3bfd18e6fbc3da746b0371759888e481593da378bbf27519194",
-  "notes": "## ArbiBrowser v0.4.261\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — BingX: отмена вывода ещё быстрее\n\nОтмена вывода BingX сокращена на один-два обмена с биржей: номер вывода из терминала пробуется сразу, одновременно с поиском по списку, а проверка результата идёт уже после ответа терминалу.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.262",
+  "name": "ArbiBrowser-update-0.4.262.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.262/ArbiBrowser-update-0.4.262.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.262.tar.gz",
+  "sha256": "db56e22d4f3034598927ae724cd170b56f359fcde02fad665d752ca2c98bc24a",
+  "notes": "## ArbiBrowser v0.4.262\n\nЧто изменилось в этой версии:\n\n### ✨ Новое — Gate: подготовка к выводу через сайт\n\nGate закрывает вывод неликвидных монет через API, а на сайте он работает. Чтобы терминал мог выводить такие монеты сам, программа запоминает, каким запросом сайт Gate делает вывод. Достаточно один раз вывести монету на gate.com во вкладке этого профиля. Пароли, коды подтверждения, cookie и адреса не записываются.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
