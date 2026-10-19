@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.264",
-  "name": "ArbiBrowser-update-0.4.264.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.264/ArbiBrowser-update-0.4.264.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.264.tar.gz",
-  "sha256": "d0081d07c0fef7b37c27ab9f52c48819c12647d8bfd15d9d926929f4fb713d98",
-  "notes": "## ArbiBrowser v0.4.264\n\nЧто изменилось в этой версии:\n\n### 🔧 Исправление — Gate: профиль сайта всегда без прокси\n\nАккаунт Gate получает при «Импорте из терминала» свой профиль без прокси, даже если в терминале у этого аккаунта прокси стоит: прокси терминала нужен для API-ключа, а на сайт Gate вы ходите со своего адреса. После обновления нажмите «Импорт из терминала» — профиль GATEIO-… станет без прокси, с вкладкой «⚠ БЕЗ ПРОКСИ».\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.265",
+  "name": "ArbiBrowser-update-0.4.265.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.265/ArbiBrowser-update-0.4.265.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.265.tar.gz",
+  "sha256": "fd55ea837a3eefe1ddcb3cba761dc97fdf7e8eae9dae52ce18dfab272145ef8b",
+  "notes": "## ArbiBrowser v0.4.265\n\nЧто изменилось в этой версии:\n\n### 🔒 Надёжность — Gate — снова через прокси терминала; защита от старых профилей\n\nОтменено изменение 0.4.264: аккаунт Gate, как и остальные, работает в профиле с тем же прокси, что в терминале (proxy-…). Кнопка «Привязка» больше не привязывает аккаунты к старому профилю, если в нём другой логин прокси (выход шёл бы с другого IP) или если этот прокси уже ведёт профиль, созданный импортом.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
