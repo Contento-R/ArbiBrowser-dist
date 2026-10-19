@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.266",
-  "name": "ArbiBrowser-update-0.4.266.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.266/ArbiBrowser-update-0.4.266.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.266.tar.gz",
-  "sha256": "26022c32ba931949a8a0f04e56322c409ccfc1d0509b819184fb789319ac4f4d",
-  "notes": "## ArbiBrowser v0.4.266\n\nЧто изменилось в этой версии:\n\n### 🔧 Исправление — Gate: подготовка к выводу через сайт\n\nЧтобы терминал мог сам заполнять форму вывода Gate, программа при открытии страницы вывода запоминает её устройство — какие там поля, списки и кнопки (без значений, только названия). Пароли, коды, адреса и cookie не записываются. Один ручной вывод на gate.com — и дальше заполнение можно будет сделать автоматическим.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.267",
+  "name": "ArbiBrowser-update-0.4.267.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.267/ArbiBrowser-update-0.4.267.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.267.tar.gz",
+  "sha256": "705432e54e9f42638ddac716f1384d1e3ca32dd2642138435adf378050baaa5f",
+  "notes": "## ArbiBrowser v0.4.267\n\nЧто изменилось в этой версии:\n\n### ✨ Новое — MEXC: окно «Напоминание о делистинге» закрывается из терминала\n\nЕсли монета на MEXC помечена как ST, в терминале над формой заявки есть кнопка «Закрыть окно делиста». Она открывает пару в программе и нажимает «Принять и продолжить» — смотреть в браузер не нужно. С галочкой «больше не напоминать» терминал делает это сам при открытии такой монеты.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
