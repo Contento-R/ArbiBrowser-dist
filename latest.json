@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.262",
-  "name": "ArbiBrowser-update-0.4.262.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.262/ArbiBrowser-update-0.4.262.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.262.tar.gz",
-  "sha256": "db56e22d4f3034598927ae724cd170b56f359fcde02fad665d752ca2c98bc24a",
-  "notes": "## ArbiBrowser v0.4.262\n\nЧто изменилось в этой версии:\n\n### ✨ Новое — Gate: подготовка к выводу через сайт\n\nGate закрывает вывод неликвидных монет через API, а на сайте он работает. Чтобы терминал мог выводить такие монеты сам, программа запоминает, каким запросом сайт Gate делает вывод. Достаточно один раз вывести монету на gate.com во вкладке этого профиля. Пароли, коды подтверждения, cookie и адреса не записываются.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.263",
+  "name": "ArbiBrowser-update-0.4.263.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.263/ArbiBrowser-update-0.4.263.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.263.tar.gz",
+  "sha256": "132a19994b99cf22d047a9288dd83d29f702e994afb055a98eeb2e9a3e4cfff6",
+  "notes": "## ArbiBrowser v0.4.263\n\nЧто изменилось в этой версии:\n\n### ✨ Новое — Профиль без прокси (Gate) помечен вкладкой\n\nЕсли аккаунт биржи заведён в терминале без прокси (так торгуют на Gate), его профиль открывается без прокси, и первой в нём стоит вкладка «⚠ БЕЗ ПРОКСИ · реальный IP этого ПК» — сразу видно, что этот профиль ходит с вашего настоящего адреса. Закроете — откроется снова. Тревога «профиль без прокси» для Gate больше не поднимается; для остальных бирж правило «только через свой прокси» осталось.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
