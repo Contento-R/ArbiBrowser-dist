@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.268",
-  "name": "ArbiBrowser-update-0.4.268.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.268/ArbiBrowser-update-0.4.268.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.268.tar.gz",
-  "sha256": "9e2c77f04e5e857fbd25d5b0a58107a3e5b37bc842667310507e6b70bef98d20",
-  "notes": "## ArbiBrowser v0.4.268\n\nЧто изменилось в этой версии:\n\n### 🔧 Исправление — MEXC: окно делиста больше не возвращается после перезагрузки страницы\n\nКнопка «Закрыть окно делиста» нажимала в окне MEXC «Принять и продолжить», после чего биржа перезагружала страницу и окно всплывало снова. Теперь программа закрывает окно крестиком, как вы руками, — без перезагрузки. А если страница пары всё же перезагрузится, окно закроется снова само.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.269",
+  "name": "ArbiBrowser-update-0.4.269.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.269/ArbiBrowser-update-0.4.269.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.269.tar.gz",
+  "sha256": "f2d77067e429dc73ad352139c57365400fb6381aed0db0296e17ec1afabacbc3",
+  "notes": "## ArbiBrowser v0.4.269\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — MEXC: заявка ставится быстрее на открытой паре\n\nПеред каждой заявкой программа дважды подряд проверяла, что вкладка пары живая, — вторая проверка ничего не добавляла, но на загруженной странице MEXC стоила до четверти секунды. Теперь проверка одна.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
