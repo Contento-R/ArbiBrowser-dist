@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.270",
-  "name": "ArbiBrowser-update-0.4.270.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.270/ArbiBrowser-update-0.4.270.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.270.tar.gz",
-  "sha256": "b004f75ed2f91f20e59b12eb3652961b6e76cd06876bd17bfcf524ae75dc0975",
-  "notes": "## ArbiBrowser v0.4.270\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — BingX: меньше работы перед кликом по заявке\n\nПеред нажатием кнопки программа ищет на странице подсказку биржи о лимите объёма. Раньше она проверяла видимость каждого элемента страницы — теперь сначала отбирает элементы по тексту и проверяет только подходящие. В журнале у заявки теперь видно отдельно, сколько заняли проверка лимита и ожидание готовности кнопки.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.271",
+  "name": "ArbiBrowser-update-0.4.271.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.271/ArbiBrowser-update-0.4.271.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.271.tar.gz",
+  "sha256": "5af797c3455799e457dd690c2643ca4f51cee5bc0d5a66167993e86e212a2efa",
+  "notes": "## ArbiBrowser v0.4.271\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — BingX: покупка частями — без переключения вкладок перед заявкой\n\nВкладки-части пары после прогрева теперь остаются на стороне «Купить». Раньше они оставались на «Продать», и первая покупка частями тратила до полсекунды на переключение всех вкладок. Продажа работает как прежде. Если программе приходится открывать страницу пары заново, в журнале теперь видно, какие вкладки были и почему ни одна не подошла.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
