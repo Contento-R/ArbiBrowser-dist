@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.278",
-  "name": "ArbiBrowser-update-0.4.278.tar.gz",
-  "url": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.278.tar.gz",
-  "urlMirror": "https://raw.githubusercontent.com/Contento-R/ArbiBrowser-dist/main/ArbiBrowser-update-0.4.278.tar.gz",
-  "sha256": "2e99c3cbf0579e5649ea799ac557b22c6b443f831bd07b677ecba63e191348c4",
-  "notes": "## ArbiBrowser v0.4.278\n\nЧто изменилось в этой версии:\n\n### 🔧 Исправление — MEXC: понятная причина, когда монеты нет на споте\n\nЕсли на споте MEXC монеты 0 (депозит ещё не зачислен, монета на Фонде или в открытой заявке), биржа показывает кнопку «Депозит» вместо «Продать». Раньше терминал писал невнятное «форма не переключилась», теперь сразу: «на споте 0 монеты».\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.279",
+  "name": "ArbiBrowser-update-0.4.279.tar.gz",
+  "url": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.279.tar.gz",
+  "urlMirror": "https://raw.githubusercontent.com/Contento-R/ArbiBrowser-dist/main/ArbiBrowser-update-0.4.279.tar.gz",
+  "sha256": "6910e2318e9de0cc5ca5d425ba5a71169bb85cdb137a016c49f849f29803ce85",
+  "notes": "## ArbiBrowser v0.4.279\n\nЧто изменилось в этой версии:\n\n### 🔧 Исправление — MEXC: продажа сразу после зачисления — вкладка сама обновляет баланс\n\nТерминал уже видит зачисленную монету, а открытая страница MEXC могла ещё показывать «Доступно 0» — снайпер и продажа отказывали. Теперь в этом случае вкладка пары один раз обновляется и заявка ставится сразу после обновления.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
