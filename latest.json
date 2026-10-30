@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.277",
-  "name": "ArbiBrowser-update-0.4.277.tar.gz",
-  "url": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.277.tar.gz",
-  "urlMirror": "https://raw.githubusercontent.com/Contento-R/ArbiBrowser-dist/main/ArbiBrowser-update-0.4.277.tar.gz",
-  "sha256": "27e32816b5fa159c26477cc71aec5961684d5b52c22b498da4777146ae2f8ab8",
-  "notes": "## ArbiBrowser v0.4.277\n\nЧто изменилось в этой версии:\n\n### 🔧 Исправление — MEXC: нажатие «Купить/Продать» больше не уходит в то, что легло поверх кнопки\n\nСлучай с BKN 29 октября: форма заполнена, кнопка активна, а заявка не ушла ни с первого, ни со второго нажатия. Так бывает, когда поверх кнопки лежит другое окно — нажатие достаётся ему. На BingX эту накладку уже убирали перед нажатием, теперь то же делается и на MEXC. Окна подтверждения заявки, предупреждения о риске и проверка безопасности (капча) не трогаются. Если MEXC показал капчу, терминал так и напишет: «пройдите её в окне ArbiBrowser». Если заявка всё же не ушла, в журнале будет видно, что перехватило нажатие, а снимок страницы сохранится в папку diag рядом с данными программы.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.278",
+  "name": "ArbiBrowser-update-0.4.278.tar.gz",
+  "url": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.278.tar.gz",
+  "urlMirror": "https://raw.githubusercontent.com/Contento-R/ArbiBrowser-dist/main/ArbiBrowser-update-0.4.278.tar.gz",
+  "sha256": "2e99c3cbf0579e5649ea799ac557b22c6b443f831bd07b677ecba63e191348c4",
+  "notes": "## ArbiBrowser v0.4.278\n\nЧто изменилось в этой версии:\n\n### 🔧 Исправление — MEXC: понятная причина, когда монеты нет на споте\n\nЕсли на споте MEXC монеты 0 (депозит ещё не зачислен, монета на Фонде или в открытой заявке), биржа показывает кнопку «Депозит» вместо «Продать». Раньше терминал писал невнятное «форма не переключилась», теперь сразу: «на споте 0 монеты».\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
