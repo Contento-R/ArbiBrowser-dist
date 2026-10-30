@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.279",
-  "name": "ArbiBrowser-update-0.4.279.tar.gz",
-  "url": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.279.tar.gz",
-  "urlMirror": "https://raw.githubusercontent.com/Contento-R/ArbiBrowser-dist/main/ArbiBrowser-update-0.4.279.tar.gz",
-  "sha256": "6910e2318e9de0cc5ca5d425ba5a71169bb85cdb137a016c49f849f29803ce85",
-  "notes": "## ArbiBrowser v0.4.279\n\nЧто изменилось в этой версии:\n\n### 🔧 Исправление — MEXC: продажа сразу после зачисления — вкладка сама обновляет баланс\n\nТерминал уже видит зачисленную монету, а открытая страница MEXC могла ещё показывать «Доступно 0» — снайпер и продажа отказывали. Теперь в этом случае вкладка пары один раз обновляется и заявка ставится сразу после обновления.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.280",
+  "name": "ArbiBrowser-update-0.4.280.tar.gz",
+  "url": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.280.tar.gz",
+  "urlMirror": "https://raw.githubusercontent.com/Contento-R/ArbiBrowser-dist/main/ArbiBrowser-update-0.4.280.tar.gz",
+  "sha256": "12d3faaa1537a2ae5c455f99bc466a1e37432aaf1beb82fce71855d7ce11cb09",
+  "notes": "## ArbiBrowser v0.4.280\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — MEXC: баланс после зачисления — перещёлкиванием «Купить/Продать», без перезагрузки\n\nЕсли страница MEXC ещё показывает «Доступно 0», а монета уже зачислена, терминал не перезагружает вкладку, а перещёлкивает «Купить» → «Продать» — биржа так перечитывает баланс быстрее, и заявка ставится сразу.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
