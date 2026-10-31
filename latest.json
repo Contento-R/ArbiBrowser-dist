@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.280",
-  "name": "ArbiBrowser-update-0.4.280.tar.gz",
-  "url": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.280.tar.gz",
-  "urlMirror": "https://raw.githubusercontent.com/Contento-R/ArbiBrowser-dist/main/ArbiBrowser-update-0.4.280.tar.gz",
-  "sha256": "12d3faaa1537a2ae5c455f99bc466a1e37432aaf1beb82fce71855d7ce11cb09",
-  "notes": "## ArbiBrowser v0.4.280\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — MEXC: баланс после зачисления — перещёлкиванием «Купить/Продать», без перезагрузки\n\nЕсли страница MEXC ещё показывает «Доступно 0», а монета уже зачислена, терминал не перезагружает вкладку, а перещёлкивает «Купить» → «Продать» — биржа так перечитывает баланс быстрее, и заявка ставится сразу.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.281",
+  "name": "ArbiBrowser-update-0.4.281.tar.gz",
+  "url": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.281.tar.gz",
+  "urlMirror": "https://raw.githubusercontent.com/Contento-R/ArbiBrowser-dist/main/ArbiBrowser-update-0.4.281.tar.gz",
+  "sha256": "bf51f0498e2e577c4b037bd2ab6137ac459656fe00306a4a1723eff5727ea9ef",
+  "notes": "## ArbiBrowser v0.4.281\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — BingX: снайпер и заявки больше не ждут фонового прогрева формы\n\nПока по паре идут заявки, фоновое обновление формы пропускается — форма и так свежая. Раньше оно запускалось каждые 5 секунд и задерживало выстрел снайпера до 2 секунд.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
