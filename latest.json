@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.283",
-  "name": "ArbiBrowser-update-0.4.283.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.283/ArbiBrowser-update-0.4.283.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.283.tar.gz",
-  "sha256": "498f915ba55b48cbb15f02ed6459e1cb07a03bd0d413dd292587fad8692fdd48",
-  "notes": "## ArbiBrowser v0.4.283\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — Дежурная вкладка биржи обновляется раз в 20 минут\n\nСлужебная вкладка, которая держит вход на бирже живым, раньше жила сутками и раздувала память сайта — вкладка пары с заявками начинала отвечать секундами. Теперь раз в 20 минут, когда заявок нет хотя бы 20 секунд, она закрывается и открывается заново.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.284",
+  "name": "ArbiBrowser-update-0.4.284.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.284/ArbiBrowser-update-0.4.284.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.284.tar.gz",
+  "sha256": "ef178ae274f25676a730320749f7c674fec0d1ed687d1fc4421e757f2086766e",
+  "notes": "## ArbiBrowser v0.4.284\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — MEXC: серия заявок ставится быстрее\n\nЕсли на вкладке пары заявка прошла меньше 5 секунд назад, следующая уходит без повторных проверок вкладки (отклик, вход, блокировка) — снайпер на веб-токенах MEXC стреляет чаще. В журнале такие заявки помечены «[серия]».\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
