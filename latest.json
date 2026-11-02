@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.282",
-  "name": "ArbiBrowser-update-0.4.282.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.282/ArbiBrowser-update-0.4.282.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.282.tar.gz",
-  "sha256": "d25c200ec051601b21fd87820da95c53b854d8c4e7d8d70c9b41acb4ba339da7",
-  "notes": "## ArbiBrowser v0.4.282\n\nЧто изменилось в этой версии:\n\n### 🔧 Исправление — Из отчёта о запуске профиля — обратно к логам\n\nПосле запуска профиля справа показывается отчёт о запуске, и вернуться к «Логам исполнителя» было нельзя. Теперь над отчётом есть кнопка «← К логам исполнителя».\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.283",
+  "name": "ArbiBrowser-update-0.4.283.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.283/ArbiBrowser-update-0.4.283.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.283.tar.gz",
+  "sha256": "498f915ba55b48cbb15f02ed6459e1cb07a03bd0d413dd292587fad8692fdd48",
+  "notes": "## ArbiBrowser v0.4.283\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — Дежурная вкладка биржи обновляется раз в 20 минут\n\nСлужебная вкладка, которая держит вход на бирже живым, раньше жила сутками и раздувала память сайта — вкладка пары с заявками начинала отвечать секундами. Теперь раз в 20 минут, когда заявок нет хотя бы 20 секунд, она закрывается и открывается заново.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
