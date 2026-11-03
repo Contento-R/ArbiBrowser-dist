@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.289",
-  "name": "ArbiBrowser-update-0.4.289.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.289/ArbiBrowser-update-0.4.289.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.289.tar.gz",
-  "sha256": "4acad67a633c059bbb4daf70c9d8ffa928909b71f7657e5deea881aa54b6cdb9",
-  "notes": "## ArbiBrowser v0.4.289\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — MEXC: заявки прямым запросом — без формы и без очереди (включается в терминале)\n\nКогда в терминале включены прямые заявки MEXC, первая заявка пары ставится как обычно, а следующие той же пары и стороны уходят сразу запросом со страницы — без заполнения формы и не дожидаясь ответа на предыдущую. Если прямой запрос не прошёл, заявка тут же уходит обычным путём. Кроме того, журнал теперь показывает, какой запрос вызвал окно «прокси требует логин и пароль».\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.290",
+  "name": "ArbiBrowser-update-0.4.290.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.290/ArbiBrowser-update-0.4.290.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.290.tar.gz",
+  "sha256": "2ae0dfcee53ab4730a4e1671333c75df3cf9deb64cdd63001b2d4d580bab1408",
+  "notes": "## ArbiBrowser v0.4.290\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — Быстрые заявки MEXC не теряются при закрытии вкладки\n\nЕсли вкладка пары MEXC закрылась, следующая заявка всё равно уходит быстрым путём из другой открытой вкладки биржи. В «Логах исполнителя» теперь видно, каким запросом сайт отменяет одну заявку, — это нужно для автоматической подготовки снайпера.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
