@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.290",
-  "name": "ArbiBrowser-update-0.4.290.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.290/ArbiBrowser-update-0.4.290.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.290.tar.gz",
-  "sha256": "2ae0dfcee53ab4730a4e1671333c75df3cf9deb64cdd63001b2d4d580bab1408",
-  "notes": "## ArbiBrowser v0.4.290\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — Быстрые заявки MEXC не теряются при закрытии вкладки\n\nЕсли вкладка пары MEXC закрылась, следующая заявка всё равно уходит быстрым путём из другой открытой вкладки биржи. В «Логах исполнителя» теперь видно, каким запросом сайт отменяет одну заявку, — это нужно для автоматической подготовки снайпера.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.291",
+  "name": "ArbiBrowser-update-0.4.291.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.291/ArbiBrowser-update-0.4.291.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.291.tar.gz",
+  "sha256": "ac1ea98fad3a0d6dfc653902092a27683948eb2db8a6c8e630a0b2120bd12697",
+  "notes": "## ArbiBrowser v0.4.291\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — Снайпер MEXC готов к быстрому первому выстрелу\n\nКогда терминал взводит снайпер на MEXC, ArbiBrowser ставит заявку примерно на $1 далеко от рынка и сразу её отменяет. После этого уже первый выстрел уходит быстрым путём, без заполнения формы.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
