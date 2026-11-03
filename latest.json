@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.287",
-  "name": "ArbiBrowser-update-0.4.287.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.287/ArbiBrowser-update-0.4.287.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.287.tar.gz",
-  "sha256": "5b8d0ddf7a52abf9ab30b523a3851ec829b2e07b9ad6e9f6428f6972033ebcdd",
-  "notes": "## ArbiBrowser v0.4.287\n\nЧто изменилось в этой версии:\n\n### ✨ Новое — Служебная проверка серии заявок MEXC — с двумя вкладками\n\nРучная проверка для разработки теперь умеет ставить заявки по очереди из двух вкладок одной пары. Сама она не запускается и на обычную работу не влияет.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.288",
+  "name": "ArbiBrowser-update-0.4.288.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.288/ArbiBrowser-update-0.4.288.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.288.tar.gz",
+  "sha256": "c7f0e88be1530278ebbad5b9b0012120a1e92f1c17cf96cbdaf8a3b3528bef6b",
+  "notes": "## ArbiBrowser v0.4.288\n\nЧто изменилось в этой версии:\n\n### ✨ Новое — Служебная проверка «заявка прямым запросом» для MEXC\n\nРучная проверка для разработки: одна заявка кнопкой, затем такие же заявки прямым запросом со страницы. Сама она не запускается и на обычную работу не влияет.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
