@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.288",
-  "name": "ArbiBrowser-update-0.4.288.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.288/ArbiBrowser-update-0.4.288.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.288.tar.gz",
-  "sha256": "c7f0e88be1530278ebbad5b9b0012120a1e92f1c17cf96cbdaf8a3b3528bef6b",
-  "notes": "## ArbiBrowser v0.4.288\n\nЧто изменилось в этой версии:\n\n### ✨ Новое — Служебная проверка «заявка прямым запросом» для MEXC\n\nРучная проверка для разработки: одна заявка кнопкой, затем такие же заявки прямым запросом со страницы. Сама она не запускается и на обычную работу не влияет.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.289",
+  "name": "ArbiBrowser-update-0.4.289.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.289/ArbiBrowser-update-0.4.289.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.289.tar.gz",
+  "sha256": "4acad67a633c059bbb4daf70c9d8ffa928909b71f7657e5deea881aa54b6cdb9",
+  "notes": "## ArbiBrowser v0.4.289\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — MEXC: заявки прямым запросом — без формы и без очереди (включается в терминале)\n\nКогда в терминале включены прямые заявки MEXC, первая заявка пары ставится как обычно, а следующие той же пары и стороны уходят сразу запросом со страницы — без заполнения формы и не дожидаясь ответа на предыдущую. Если прямой запрос не прошёл, заявка тут же уходит обычным путём. Кроме того, журнал теперь показывает, какой запрос вызвал окно «прокси требует логин и пароль».\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
