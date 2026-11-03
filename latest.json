@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.285",
-  "name": "ArbiBrowser-update-0.4.285.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.285/ArbiBrowser-update-0.4.285.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.285.tar.gz",
-  "sha256": "3994fb9b6b9025e0e54b8b208e37de7e629d4dc32c439e037d6f2403dd0db5c6",
-  "notes": "## ArbiBrowser v0.4.285\n\nЧто изменилось в этой версии:\n\n### ✨ Новое — Служебная проверка быстрой серии заявок MEXC\n\nДобавлена ручная проверка для разработки: несколько маленьких заявок подряд без ожидания ответа биржи. Сама она не запускается и на обычную работу не влияет.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.286",
+  "name": "ArbiBrowser-update-0.4.286.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.286/ArbiBrowser-update-0.4.286.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.286.tar.gz",
+  "sha256": "0168b719e81eea24e3420dbb45a3fe1e3962738cdef57a7ef4a79b66859bfcc3",
+  "notes": "## ArbiBrowser v0.4.286\n\nЧто изменилось в этой версии:\n\n### 🔧 Исправление — MEXC: «Отменить все» снова подтверждается\n\nMEXC спрашивает «Вы уверены, что хотите отменить все ордера?», и кнопка «Подтвердить» у неё не обычная — ArbiBrowser её не нажимал, ордера оставались, а терминал считал их снятыми. Теперь подтверждение нажимается; если не получилось — терминал получает честную ошибку «ордера НЕ отменены».\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
