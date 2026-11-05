@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.294",
-  "name": "ArbiBrowser-update-0.4.294.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.294/ArbiBrowser-update-0.4.294.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.294.tar.gz",
-  "sha256": "0a597093806d4f1ba3e03a65ef39c6c32fbbe38c9cd4f1a180834a543fc63882",
-  "notes": "## ArbiBrowser v0.4.294\n\nЧто изменилось в этой версии:\n\n### 🔧 Исправление — Перепись вкладок честно считает память\n\nПри включённой экономии памяти вкладки одного сайта живут в одном процессе и показывают одну и ту же цифру — раньше она складывалась по вкладкам (5 вкладок MEXC — «7 ГБ» при реальных 1,4). Теперь память процесса сайта считается один раз.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.295",
+  "name": "ArbiBrowser-update-0.4.295.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.295/ArbiBrowser-update-0.4.295.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.295.tar.gz",
+  "sha256": "68c8bdc8cea8fa7429feb59f4bf7c7d34282ba5bcc2ac99d34524210100f14c0",
+  "notes": "## ArbiBrowser v0.4.295\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — Экономия памяти выключена у всех; уборка вкладок больше не откладывается из-за черновиков\n\nЭкономия памяти сажала все вкладки одной биржи в один процесс, и заявка ждала остальные вкладки по 8–20 секунд — теперь у каждой вкладки свой процесс (кто включал экономию сам, может включить снова в настройках). Уборка лишних вкладок раньше откладывалась всякий раз, когда браузер был занят прогревом или черновиком, то есть почти всегда; теперь её останавливает только настоящая заявка.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
