@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.305",
-  "name": "ArbiBrowser-update-0.4.305.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.305/ArbiBrowser-update-0.4.305.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.305.tar.gz",
-  "sha256": "7a420f4f2cc7fdf36dde813dfc427827727bd419a9163e1dbd959c7efdf2a40e",
-  "notes": "## ArbiBrowser v0.4.305\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — MEXC: заявки на любую монету — сразу запросом, без заполнения формы\n\nКогда в терминале включены быстрые заявки MEXC, первая заявка на новую монету или на другую сторону больше не заполняет форму: ArbiBrowser отправляет её запросом из уже открытой вкладки MEXC этого профиля — около 0,3–0,4 с вместо 2–3 с. Если монету не удаётся надёжно опознать, заявка, как раньше, идёт через форму. Снайперу при взведении больше не нужна пробная заявка, если такая отправка уже готова.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.306",
+  "name": "ArbiBrowser-update-0.4.306.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.306/ArbiBrowser-update-0.4.306.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.306.tar.gz",
+  "sha256": "67bbac01a779e20fae1e40b7fce1ffe025d1ee0c66b7fc57a131024d5048b52d",
+  "notes": "## ArbiBrowser v0.4.306\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — MEXC: и первая заявка после запуска — сразу запросом\n\nКогда в терминале включены быстрые заявки MEXC, ArbiBrowser при первом открытии монеты заранее готовит отправку: ставит служебную покупку USDC далеко от рынка (около $1,5) и сразу её отменяет. Первая настоящая заявка уходит запросом за доли секунды, без заполнения формы. В истории ордеров MEXC появится одна отменённая заявка USDC/USDT за запуск.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
