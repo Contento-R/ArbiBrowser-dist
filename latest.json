@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.304",
-  "name": "ArbiBrowser-update-0.4.304.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.304/ArbiBrowser-update-0.4.304.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.304.tar.gz",
-  "sha256": "19d1810602e2bbab2f321fe518acfdae49d4bb3166b6fdc4a16c64583b0fd7d6",
-  "notes": "## ArbiBrowser v0.4.304\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — MEXC: данные новых монет — и для свежих листингов\n\nПодготовка быстрых заявок MEXC: если монеты ещё нет в общем списке рынков (новый листинг), ArbiBrowser перезапрашивает список и берёт данные монеты с открытой страницы её пары. Заявки ставятся как раньше.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.305",
+  "name": "ArbiBrowser-update-0.4.305.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.305/ArbiBrowser-update-0.4.305.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.305.tar.gz",
+  "sha256": "7a420f4f2cc7fdf36dde813dfc427827727bd419a9163e1dbd959c7efdf2a40e",
+  "notes": "## ArbiBrowser v0.4.305\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — MEXC: заявки на любую монету — сразу запросом, без заполнения формы\n\nКогда в терминале включены быстрые заявки MEXC, первая заявка на новую монету или на другую сторону больше не заполняет форму: ArbiBrowser отправляет её запросом из уже открытой вкладки MEXC этого профиля — около 0,3–0,4 с вместо 2–3 с. Если монету не удаётся надёжно опознать, заявка, как раньше, идёт через форму. Снайперу при взведении больше не нужна пробная заявка, если такая отправка уже готова.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
