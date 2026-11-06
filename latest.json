@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.303",
-  "name": "ArbiBrowser-update-0.4.303.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.303/ArbiBrowser-update-0.4.303.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.303.tar.gz",
-  "sha256": "6057753c2f558a57f1cbea110660732e8763b70cae5e9a83cab65562a05bd25d",
-  "notes": "## ArbiBrowser v0.4.303\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — BingX и XT: подготовка к более быстрым заявкам\n\nArbiBrowser записывает в журнал, как сайты BingX и XT отправляют и отменяют заявку (только названия полей, без данных), — чтобы перевести их на такую же быструю отправку, как на MEXC. Заявки ставятся как раньше.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.304",
+  "name": "ArbiBrowser-update-0.4.304.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.304/ArbiBrowser-update-0.4.304.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.304.tar.gz",
+  "sha256": "19d1810602e2bbab2f321fe518acfdae49d4bb3166b6fdc4a16c64583b0fd7d6",
+  "notes": "## ArbiBrowser v0.4.304\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — MEXC: данные новых монет — и для свежих листингов\n\nПодготовка быстрых заявок MEXC: если монеты ещё нет в общем списке рынков (новый листинг), ArbiBrowser перезапрашивает список и берёт данные монеты с открытой страницы её пары. Заявки ставятся как раньше.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
