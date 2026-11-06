@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.306",
-  "name": "ArbiBrowser-update-0.4.306.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.306/ArbiBrowser-update-0.4.306.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.306.tar.gz",
-  "sha256": "67bbac01a779e20fae1e40b7fce1ffe025d1ee0c66b7fc57a131024d5048b52d",
-  "notes": "## ArbiBrowser v0.4.306\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — MEXC: и первая заявка после запуска — сразу запросом\n\nКогда в терминале включены быстрые заявки MEXC, ArbiBrowser при первом открытии монеты заранее готовит отправку: ставит служебную покупку USDC далеко от рынка (около $1,5) и сразу её отменяет. Первая настоящая заявка уходит запросом за доли секунды, без заполнения формы. В истории ордеров MEXC появится одна отменённая заявка USDC/USDT за запуск.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.307",
+  "name": "ArbiBrowser-update-0.4.307.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.307/ArbiBrowser-update-0.4.307.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.307.tar.gz",
+  "sha256": "f6d18ec0da1abc3018d39972268acb126724b928b031ceb68dbccc876dc3205f",
+  "notes": "## ArbiBrowser v0.4.307\n\nЧто изменилось в этой версии:\n\n### 🔧 Исправление — MEXC: служебная заявка для быстрых заявок — по команде терминала\n\nСлужебную покупку USDC/USDT для быстрых заявок теперь заказывает терминал: перед ней прогревается форма, а если сайт не отправил заявку с первого клика, ArbiBrowser повторяет её. Если служебная заявка не отменилась, терминал сразу покажет строку с кнопкой «Отменить».\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
