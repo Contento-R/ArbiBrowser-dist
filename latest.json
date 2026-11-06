@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.309",
-  "name": "ArbiBrowser-update-0.4.309.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.309/ArbiBrowser-update-0.4.309.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.309.tar.gz",
-  "sha256": "a5e3656a4da97949029b961836d3459604e050ce90ace282afce46154f673646",
-  "notes": "## ArbiBrowser v0.4.309\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — BingX: ручная проверка быстрых заявок\n\nДобавлена ручная проверка для команды: можно ли на BingX ставить заявки запросом, без заполнения формы. Обычная работа не меняется.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.311",
+  "name": "ArbiBrowser-update-0.4.311.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.311/ArbiBrowser-update-0.4.311.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.311.tar.gz",
+  "sha256": "8d10649963ada1b2ed505808d02df11de55adc7636ceb52ec8e50c2022078a56",
+  "notes": "## ArbiBrowser v0.4.311\n\nЧто изменилось в этой версии:\n\n### 🔒 Надёжность — MEXC: быстрые заявки без риска дубля\n\nЕсли быстрая заявка ушла на биржу, а ответ не пришёл (обрыв связи), ArbiBrowser больше не ставит её повторно через форму — терминал предупредит проверить открытые ордера. Обычный отказ биржи (например, не хватило баланса) больше не сбрасывает быструю отправку для следующих заявок.\n\n### ⚡ Быстрее — MEXC: подготовка быстрых заявок надёжнее на только что открытой вкладке\n\nЕсли служебная заявка подготовки не ушла с первого клика, ArbiBrowser вписывает поля заново и нажимает ещё раз — так же, как для обычной заявки. Подготовка реже срывается, и первая заявка чаще уходит быстро.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
