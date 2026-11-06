@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.298",
-  "name": "ArbiBrowser-update-0.4.298.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.298/ArbiBrowser-update-0.4.298.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.298.tar.gz",
-  "sha256": "4114ce24ea5194b8df69340c903a6015b8fdef4fecc3a432e4a58efac62501f5",
-  "notes": "## ArbiBrowser v0.4.298\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — MEXC: проверка «все заявки через одну вкладку»\n\nДобавлена ручная проверка для команды: можно ли ставить заявки на любую монету MEXC из одной служебной вкладки, без заполнения формы. Обычная работа не меняется — проверка запускается только вручную.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.299",
+  "name": "ArbiBrowser-update-0.4.299.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.299/ArbiBrowser-update-0.4.299.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.299.tar.gz",
+  "sha256": "7e26f4d548b23c39ced185e90d4c2bd88ae3859d22eea71fb6e6f4a6c988af7f",
+  "notes": "## ArbiBrowser v0.4.299\n\nЧто изменилось в этой версии:\n\n### 🔧 Исправление — MEXC: ручная проверка «все заявки через одну вкладку» доходит до биржи\n\nПроверка больше не обрывается, если вкладка служебной пары успела закрыться: заявка уходит из служебной вкладки профиля. Обычная работа не меняется.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
