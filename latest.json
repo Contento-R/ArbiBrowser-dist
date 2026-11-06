@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.308",
-  "name": "ArbiBrowser-update-0.4.308.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.308/ArbiBrowser-update-0.4.308.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.308.tar.gz",
-  "sha256": "8ff1cd6e4f8ca0f71c6e02dece61b5d05a2847f9685e130da3f0a059b52853e3",
-  "notes": "## ArbiBrowser v0.4.308\n\nЧто изменилось в этой версии:\n\n### 🔧 Исправление — MEXC: журнал быстрых заявок подробнее\n\nЕсли биржа не приняла быструю заявку, журнал показывает, сколько жила отправка, — чтобы подобрать, как часто её обновлять. Заявки ставятся как раньше.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.309",
+  "name": "ArbiBrowser-update-0.4.309.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.309/ArbiBrowser-update-0.4.309.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.309.tar.gz",
+  "sha256": "a5e3656a4da97949029b961836d3459604e050ce90ace282afce46154f673646",
+  "notes": "## ArbiBrowser v0.4.309\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — BingX: ручная проверка быстрых заявок\n\nДобавлена ручная проверка для команды: можно ли на BingX ставить заявки запросом, без заполнения формы. Обычная работа не меняется.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
