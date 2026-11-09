@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.312",
-  "name": "ArbiBrowser-update-0.4.312.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.312/ArbiBrowser-update-0.4.312.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.312.tar.gz",
-  "sha256": "a72024413a73eb79d3a9c2954cc7ebe9b6a10b51f82eb35318b8a502707df0c2",
-  "notes": "## ArbiBrowser v0.4.312\n\nЧто изменилось в этой версии:\n\n### ✨ Новое — Кнопка «Включить быструю отмену вывода BingX»\n\nНаверху панели — одна кнопка: нажали, и кнопка «Отменить» у вывода BingX в терминале сразу отменяет его через сайт в этом браузере. Ничего в командной строке и в настройках писать не нужно, перезапуск не нужен. Заявки на сайте BingX при этом не ставятся.\n\n### ⚡ Быстрее — Отмена вывода BingX не ждёт фоновых дел\n\nЕсли вкладка BingX уже открыта, отмена вывода идёт сразу, а не после уборки вкладок или проверки депозита — около секунды.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.313",
+  "name": "ArbiBrowser-update-0.4.313.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.313/ArbiBrowser-update-0.4.313.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.313.tar.gz",
+  "sha256": "16699c62f8c47573081e95e42a55f208065adbddf7dd44c6ae0573f3c145be60",
+  "notes": "## ArbiBrowser v0.4.313\n\nЧто изменилось в этой версии:\n\n### ✨ Новое — Видно, включены ли отмена вывода и заявки BingX\n\nВверху панели, рядом с кнопками, строка «BingX: отмена вывода ✓ · заявки на сайте: вкл/выкл». Если отмена ещё не включена — вместо строки кнопка «Включить быструю отмену вывода BingX».\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
