@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.315",
-  "name": "ArbiBrowser-update-0.4.315.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.315/ArbiBrowser-update-0.4.315.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.315.tar.gz",
-  "sha256": "b78afcbf60c8cd543a4d0565e73af184b97f82f53e1ce31c077e988e99495652",
-  "notes": "## ArbiBrowser v0.4.315\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — BingX: крупная заявка частями — из одной вкладки (пробный режим)\n\nЕсли заявка больше лимита BingX и её надо дробить, ArbiBrowser может отправить все части из одной вкладки сразу, без дополнительных вкладок: первая часть — кнопкой, остальные — тем же запросом, что делает сама страница. Вкладки быстрее открываются, памяти и прокси меньше. Пока включается вручную: строка ARBI_BINGX_DIRECT_SPLIT=1 в файле .env ArbiBrowser и перезапуск.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.316",
+  "name": "ArbiBrowser-update-0.4.316.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.316/ArbiBrowser-update-0.4.316.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.316.tar.gz",
+  "sha256": "5695f64642ed59cedba3f046fa9b011021f0a42c2a946aadf8db20c26ded68a1",
+  "notes": "## ArbiBrowser v0.4.316\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — BingX: заявка уходит сразу, не дожидаясь загрузки страницы\n\nПо монете, которую уже торговали, заявка из терминала (целиком или всеми частями сразу) уходит запросом из уже открытой вкладки BingX — форма и загрузка страницы монеты не ждутся. По новой монете первая заявка идёт кнопкой и запоминает, как её ставить, следующие — сразу. Части крупной заявки по умолчанию уходят из одной вкладки; вернуть прежние вкладки-части — снять галочку «части BingX — из одной вкладки» вверху панели.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
