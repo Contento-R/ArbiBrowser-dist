@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.318",
-  "name": "ArbiBrowser-update-0.4.318.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.318/ArbiBrowser-update-0.4.318.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.318.tar.gz",
-  "sha256": "fe406618b62648d55d12e61018e5cf94e2185f06728a30a2cab00ec71717dec4",
-  "notes": "## ArbiBrowser v0.4.318\n\nЧто изменилось в этой версии:\n\n### 🔧 Исправление — BingX: части крупной заявки — строго по вашей цене\n\nИсправлено: при заявке частями из одной вкладки части после первой могли встать по текущей цене рынка, а не по цене вашей заявки (и крупная часть отклонялась «максимальной стоимостью»). Теперь каждая часть — по вашей цене; если цена не совпала — части идут через форму. Заявка совсем без формы временно выключена до проверки.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.319",
+  "name": "ArbiBrowser-update-0.4.319.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.319/ArbiBrowser-update-0.4.319.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.319.tar.gz",
+  "sha256": "afac049c7b1754d769649a34c3e1b0ae59a98536a8cdf7a75b9a00f54bec39a5",
+  "notes": "## ArbiBrowser v0.4.319\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — BingX: заявка по знакомой монете — сразу, без формы\n\nПо монете, которую уже покупали или продавали через ArbiBrowser, заявка из терминала (целиком или всеми частями) уходит сразу из открытой вкладки BingX — без формы и без ожидания страницы, строго по вашей цене. Первая заявка по новой монете и направлению идёт кнопкой. Выключить — галочка «части BingX — из одной вкладки» вверху панели.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
