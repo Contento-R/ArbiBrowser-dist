@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.313",
-  "name": "ArbiBrowser-update-0.4.313.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.313/ArbiBrowser-update-0.4.313.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.313.tar.gz",
-  "sha256": "16699c62f8c47573081e95e42a55f208065adbddf7dd44c6ae0573f3c145be60",
-  "notes": "## ArbiBrowser v0.4.313\n\nЧто изменилось в этой версии:\n\n### ✨ Новое — Видно, включены ли отмена вывода и заявки BingX\n\nВверху панели, рядом с кнопками, строка «BingX: отмена вывода ✓ · заявки на сайте: вкл/выкл». Если отмена ещё не включена — вместо строки кнопка «Включить быструю отмену вывода BingX».\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.314",
+  "name": "ArbiBrowser-update-0.4.314.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.314/ArbiBrowser-update-0.4.314.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.314.tar.gz",
+  "sha256": "6ad414016a4ba0cc5a36942bbbcd1dcbd3b5d6739676fff9f310855cf9fc8c75",
+  "notes": "## ArbiBrowser v0.4.314\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — BingX: первая заявка по новой монете больше не зависает\n\nСразу после открытия монеты ArbiBrowser открывает ещё несколько вкладок пары для крупных заявок. Если заявка приходит, пока они грузятся, недогруженные вкладки теперь закрываются — заявка уходит сразу, а не ждёт до 12 секунд, пока через тот же прокси грузятся страницы. Вкладки откроются заново на следующем круге. Подготовка формы тоже уступает заявке дорогу (около секунды быстрее).\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
