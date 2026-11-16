@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.323",
-  "name": "ArbiBrowser-update-0.4.323.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.323/ArbiBrowser-update-0.4.323.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.323.tar.gz",
-  "sha256": "f9c706eafab43f53464698d9622d173b5961018e662642061574a7eec9c137b0",
-  "notes": "## ArbiBrowser v0.4.323\n\nЧто изменилось в этой версии:\n\n### ✨ Новое — Ourbit: заявки через сайт\n\nТерминал может торговать Ourbit через ArbiBrowser: заявки, отмена, открытые ордера и баланс идут прямо из вкладки ourbit.com профиля, без формы. Автоматические заявки (снайпер, бот) уходят только по монете, сверенной по контракту; иначе заявка не отправляется. Нужен вход на ourbit.com в профиле Ourbit-аккаунта.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.324",
+  "name": "ArbiBrowser-update-0.4.324.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.324/ArbiBrowser-update-0.4.324.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.324.tar.gz",
+  "sha256": "87c79a663e20336bca72ab98faf3837dbefeb0ced4e1d0f899994ecbe8eb06c6",
+  "notes": "## ArbiBrowser v0.4.324\n\nЧто изменилось в этой версии:\n\n### ✨ Новое — Ourbit: адрес депозита и история депозитов\n\nПанель депозитов терминала получает адрес депозита Ourbit и ход зачисления (подтверждения) прямо с сайта ourbit.com в профиле Ourbit-аккаунта.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
