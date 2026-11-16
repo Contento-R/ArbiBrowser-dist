@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.326",
-  "name": "ArbiBrowser-update-0.4.326.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.326/ArbiBrowser-update-0.4.326.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.326.tar.gz",
-  "sha256": "791025bddc46d81fd9fbff2b852f8f037de927b82bc98a02a0b5489ec61b3ffb",
-  "notes": "## ArbiBrowser v0.4.326\n\nЧто изменилось в этой версии:\n\n### 🔧 Исправление — Ourbit: запись вывода и адресов не теряется\n\nЗапись запросов Ourbit больше не тратит место на частые проверки баланса и ордеров, которые делает сам терминал: вывод, адреса депозита и проверки безопасности записываются всегда.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.327",
+  "name": "ArbiBrowser-update-0.4.327.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.327/ArbiBrowser-update-0.4.327.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.327.tar.gz",
+  "sha256": "27c58c46864aacdc2907ff1fa8ca58366d6dcea7ce7d697cab71c0653561e24f",
+  "notes": "## ArbiBrowser v0.4.327\n\nЧто изменилось в этой версии:\n\n### ✨ Новое — Ourbit: вывод из терминала и верные адреса депозита\n\nТерминал выводит с Ourbit быстрым выводом сайта (без кодов, в лимите быстрого вывода и на адрес из белого списка Ourbit) и показывает историю выводов. Адреса депозита теперь берутся для нужной сети у любой монеты, включая USDT. Файл записи запросов Ourbit стал меньше и не растёт больше ~300 КБ.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
