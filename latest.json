@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.324",
-  "name": "ArbiBrowser-update-0.4.324.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.324/ArbiBrowser-update-0.4.324.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.324.tar.gz",
-  "sha256": "87c79a663e20336bca72ab98faf3837dbefeb0ced4e1d0f899994ecbe8eb06c6",
-  "notes": "## ArbiBrowser v0.4.324\n\nЧто изменилось в этой версии:\n\n### ✨ Новое — Ourbit: адрес депозита и история депозитов\n\nПанель депозитов терминала получает адрес депозита Ourbit и ход зачисления (подтверждения) прямо с сайта ourbit.com в профиле Ourbit-аккаунта.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.325",
+  "name": "ArbiBrowser-update-0.4.325.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.325/ArbiBrowser-update-0.4.325.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.325.tar.gz",
+  "sha256": "06a995ea3942764ccccc345e35bb4d9a49f1ba7656008ef745fd2c6ec9857e6c",
+  "notes": "## ArbiBrowser v0.4.325\n\nЧто изменилось в этой версии:\n\n### 🔒 Надёжность — Ourbit: адрес депозита — только если сеть точно та\n\nАдрес депозита Ourbit с сайта берётся только у монеты с одной сетью. Для монет с несколькими сетями (например, USDT) адрес пока нужно взять на сайте Ourbit: сайт выдавал адрес не той сети.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
