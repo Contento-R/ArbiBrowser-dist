@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.348",
-  "name": "ArbiBrowser-update-0.4.348.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.348/ArbiBrowser-update-0.4.348.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.348.tar.gz",
-  "sha256": "00eec50f8bb843ae9b3c54184b4332c07f972321adc244c9aa9855e70c47afff",
-  "notes": "## ArbiBrowser v0.4.348\n\nЧто изменилось в этой версии:\n\n### 🔧 Исправление — Ourbit: вкладка вывода не перезагружается перед выводом\n\nВывод Ourbit снова идёт сразу через открытую форму сайта (около 5 секунд), без перезагрузки вкладки перед каждым выводом и без фоновых перезагрузок раз в две минуты. Прямой запрос включится сам, как только биржа примет наше подтверждение: при выводе ArbiBrowser пробует его запросом, собранным точь-в-точь как у страницы, и записывает в журнал, чем наш запрос отличается от запроса сайта.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.349",
+  "name": "ArbiBrowser-update-0.4.349.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.349/ArbiBrowser-update-0.4.349.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.349.tar.gz",
+  "sha256": "4defa34ad7bbecc2196c0f3a13f75581d07dafe69f0a7b4f18935ddf09a058ef",
+  "notes": "## ArbiBrowser v0.4.349\n\nЧто изменилось в этой версии:\n\n### 🔧 Исправление — Ourbit: вывод больше не отклоняется через раз\n\nВ версии 0.4.348 каждый второй вывод Ourbit отклонялся с ошибкой «Invalid Content-Type» — исправлено, деньги при этом не уходили. Заодно подтверждение вывода теперь уходит сразу после проверки сайта, как у самой страницы, а в журнал пишется, чем наш запрос отличается от запроса сайта.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
