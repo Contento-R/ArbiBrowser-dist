@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.340",
-  "name": "ArbiBrowser-update-0.4.340.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.340/ArbiBrowser-update-0.4.340.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.340.tar.gz",
-  "sha256": "711e7fb74a00f9f0d60e5a4b9f5790d8c28a83156052aaff4edd7ab46fe1829c",
-  "notes": "## ArbiBrowser v0.4.340\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — Ourbit: вывод через форму — быстрее\n\nФорма вывода Ourbit держится открытой заранее, пока в терминале открыта панель вывода, и после каждого вывода обновляется в фоне — вывод не ждёт загрузки страницы. Адрес и сумма вставляются целиком, а не по символу, сеть выбирается в окне сайта.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.341",
+  "name": "ArbiBrowser-update-0.4.341.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.341/ArbiBrowser-update-0.4.341.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.341.tar.gz",
+  "sha256": "6dd9391382d27dbc5863fd52fd2412f47fd3239bf3522edbb4265f3ad9030338",
+  "notes": "## ArbiBrowser v0.4.341\n\nЧто изменилось в этой версии:\n\n### 🔧 Исправление — Ourbit: вывод — кнопка «Отправить»\n\nНа форме вывода Ourbit кнопка называется «Отправить» — теперь ArbiBrowser её находит, и вывод доходит до подтверждения.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
