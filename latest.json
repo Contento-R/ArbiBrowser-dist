@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.329",
-  "name": "ArbiBrowser-update-0.4.329.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.329/ArbiBrowser-update-0.4.329.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.329.tar.gz",
-  "sha256": "a1b3da1a4779f966819525645576614e0a104365003fe10b1c3d7c565122983a",
-  "notes": "## ArbiBrowser v0.4.329\n\nЧто изменилось в этой версии:\n\n### 🔧 Исправление — Ourbit: быстрый вывод помнит устройство\n\nЧтобы Ourbit принял быстрый вывод из терминала, ArbiBrowser запоминает служебную метку устройства сайта после одного вывода на сайте в этом профиле — и помнит её после перезапуска.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.330",
+  "name": "ArbiBrowser-update-0.4.330.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.330/ArbiBrowser-update-0.4.330.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.330.tar.gz",
+  "sha256": "34198981307d731f87153716f6fa8e3fe8aa515066ca795c5826f6169c3ddc74",
+  "notes": "## ArbiBrowser v0.4.330\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — Ourbit: быстрый вывод без ручной подготовки, запросы не зависают\n\nМетку устройства для быстрого вывода ArbiBrowser берёт прямо со страницы Ourbit — вывод на сайте заранее больше не нужен. Запрос к сайту Ourbit ждёт не дольше 12 секунд, в журнале видно, что именно терминал спрашивает у сайта.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
