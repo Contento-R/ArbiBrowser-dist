@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.331",
-  "name": "ArbiBrowser-update-0.4.331.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.331/ArbiBrowser-update-0.4.331.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.331.tar.gz",
-  "sha256": "732b8b7391296bc74b8af12312a319b198aad1ae7ff3a8b23d882fbaf463105f",
-  "notes": "## ArbiBrowser v0.4.331\n\nЧто изменилось в этой версии:\n\n### 🔧 Исправление — Ourbit: подпись подтверждения вывода\n\nПодтверждение вывода Ourbit требует подписи сайта. ArbiBrowser сам находит, как сайт подписывает запросы (один раз, когда на ourbit.com выбирают адрес на странице вывода), и подписывает вывод из терминала так же.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.332",
+  "name": "ArbiBrowser-update-0.4.332.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.332/ArbiBrowser-update-0.4.332.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.332.tar.gz",
+  "sha256": "55b6cd5c0da29b0c8832bbda6a67fcc7ba94c364ca8d1c80093033b66e80050e",
+  "notes": "## ArbiBrowser v0.4.332\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — Ответы о заявках снова мгновенные\n\nС появлением исполнителя Ourbit ответы терминалу о заявках MEXC, BingX и XT могли задерживаться на 8–13 секунд — исправлено. Журнал исполнения больше не разрастается от проверок баланса и ордеров Ourbit.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
