@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.320",
-  "name": "ArbiBrowser-update-0.4.320.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.320/ArbiBrowser-update-0.4.320.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.320.tar.gz",
-  "sha256": "9c5531f686d5f8b6dc396a90ad1d741f9d4ad1dfcdae8c6895c981518aafd2bb",
-  "notes": "## ArbiBrowser v0.4.320\n\nЧто изменилось в этой версии:\n\n### ✨ Новое — Ourbit: запись запросов сайта для торговли через ArbiBrowser\n\nOurbit не пускает торговать по API, поэтому торговлю Ourbit переводим на сайт. Чтобы её собрать, ArbiBrowser записывает, какие запросы делает сайт Ourbit. Откройте ourbit.com в профиле с Ourbit, поставьте одну лимитку далеко от рынка, отмените её и откройте «Активы» — и всё. Пароли, ключи, подписи и адреса не записываются, ArbiBrowser сам ничего не нажимает. Запись — в файле reports/ourbit-capture.txt.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.321",
+  "name": "ArbiBrowser-update-0.4.321.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.321/ArbiBrowser-update-0.4.321.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.321.tar.gz",
+  "sha256": "1624b370583725b5b7cbed3dfb67fa315f13dd9db972c6859d68f1a92331e7f3",
+  "notes": "## ArbiBrowser v0.4.321\n\nЧто изменилось в этой версии:\n\n### ✨ Новое — Ourbit: проба быстрых заявок\n\nПроверяем, можно ли на Ourbit ставить заявки сразу, без формы (как на MEXC). Поставьте на ourbit.com одну лимитную ПОКУПКУ далеко ниже рынка и отмените её сами. После отмены ArbiBrowser один раз повторит ту же заявку на шаг меньше и сразу её отменит, а в файл reports/ourbit-capture.txt запишет «подпись переиспользуется: да/нет». Проба выполняется один раз.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
