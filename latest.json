@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.337",
-  "name": "ArbiBrowser-update-0.4.337.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.337/ArbiBrowser-update-0.4.337.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.337.tar.gz",
-  "sha256": "0e3ac637c30a14378ca0f262f5b80ff14afc3ed42dc9d532dabb935f47376858",
-  "notes": "## ArbiBrowser v0.4.337\n\nЧто изменилось в этой версии:\n\n### ✨ Новое — Ourbit: вывод из терминала через форму сайта\n\nВывод Ourbit из терминала заполняет форму вывода на ourbit.com в профиле (сеть, адрес, сумма), нажимает «Вывести» и подтверждает окно. Перед подтверждением ArbiBrowser сверяет с терминалом сумму, адрес и сеть, которые готовит сайт. Если капча попросит пазл — вкладка Ourbit выйдет вперёд, решите его.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.338",
+  "name": "ArbiBrowser-update-0.4.338.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.338/ArbiBrowser-update-0.4.338.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.338.tar.gz",
+  "sha256": "7fdc337916dd0a03464fbc25508c43616366c63ee69283cb3032085b5c178017",
+  "notes": "## ArbiBrowser v0.4.338\n\nЧто изменилось в этой версии:\n\n### 🔧 Исправление — Ourbit: вывод через форму — выбор сети\n\nФорма вывода Ourbit заполняется в порядке самой страницы: адрес, затем сеть, затем сумма. Сеть выбирается из списка по её точному названию на сайте — раньше список не открывался, и вывод останавливался с ошибкой «не нашлась сеть».\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
