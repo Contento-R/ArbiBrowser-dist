@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.322",
-  "name": "ArbiBrowser-update-0.4.322.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.322/ArbiBrowser-update-0.4.322.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.322.tar.gz",
-  "sha256": "1699ff197303ea6c69feb795e72304d75017ffdae5373b50ba71822dc69c7e4d",
-  "notes": "## ArbiBrowser v0.4.322\n\nЧто изменилось в этой версии:\n\n### ✨ Новое — Ourbit: проба 2 — нужна ли подпись и сколько она живёт\n\nЧтобы все заявки Ourbit уходили сразу, без формы, проверяем ещё три вещи. Поставьте на ourbit.com одну лимитную ПОКУПКУ далеко ниже рынка и отмените её сами — ArbiBrowser повторит её без подписи, поставит покупку USDC/USDT по 0.5 на 10 USDC и через 10, 30 и 60 минут ещё раз повторит вашу заявку. Каждая такая заявка сразу отменяется. Итоги — строки «ПРОБА 2» в файле reports/ourbit-capture.txt. Не закрывайте ArbiBrowser час.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.323",
+  "name": "ArbiBrowser-update-0.4.323.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.323/ArbiBrowser-update-0.4.323.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.323.tar.gz",
+  "sha256": "f9c706eafab43f53464698d9622d173b5961018e662642061574a7eec9c137b0",
+  "notes": "## ArbiBrowser v0.4.323\n\nЧто изменилось в этой версии:\n\n### ✨ Новое — Ourbit: заявки через сайт\n\nТерминал может торговать Ourbit через ArbiBrowser: заявки, отмена, открытые ордера и баланс идут прямо из вкладки ourbit.com профиля, без формы. Автоматические заявки (снайпер, бот) уходят только по монете, сверенной по контракту; иначе заявка не отправляется. Нужен вход на ourbit.com в профиле Ourbit-аккаунта.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
