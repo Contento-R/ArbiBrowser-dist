@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.357",
-  "name": "ArbiBrowser-update-0.4.357.tar.gz",
-  "url": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.357.tar.gz",
-  "urlMirror": "https://raw.githubusercontent.com/Contento-R/ArbiBrowser-dist/main/ArbiBrowser-update-0.4.357.tar.gz",
-  "sha256": "14533be73f4daf40f1377832a116a763dc93fa2e4e450f2cef79c805e9164ffd",
-  "notes": "## ArbiBrowser v0.4.357\n\nЧто изменилось в этой версии:\n\n### 🔧 Исправление — Ourbit: вывод формой, когда сайт сам выбрал сеть\n\nВывод PEPECOIN в сеть ETH отказал «на форме вывода не нашлась сеть»: у монеты с одной подходящей сетью сайт ставит сеть сам по вставленному адресу, и программа не находила поле выбора. Теперь уже выбранная сайтом сеть принимается, а сумма, адрес и сеть по-прежнему сверяются по запросу самой страницы перед отправкой.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.358",
+  "name": "ArbiBrowser-update-0.4.358.tar.gz",
+  "url": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.358.tar.gz",
+  "urlMirror": "https://raw.githubusercontent.com/Contento-R/ArbiBrowser-dist/main/ArbiBrowser-update-0.4.358.tar.gz",
+  "sha256": "9776c4f7190bdaa0fcf8f5cf868b92930e07a7a0138a76798353f0d95bc08740",
+  "notes": "## ArbiBrowser v0.4.358\n\nЧто изменилось в этой версии:\n\n### 🔧 Исправление — Ourbit: вывод сразу после покупки больше не отказывает\n\nПосле покупки Ourbit 2–5 минут не даёт вывести монету и отвечает «Risk user, not allowed to withdraw» — так же он отвечает и на своём сайте. Раньше программа уходила на форму сайта и останавливалась с «не нашлась сеть». Теперь она сама повторяет вывод, пока биржа не разрешит (до 100 секунд), и отправляет его обычным быстрым путём. Не разрешила за это время — в терминале будет прямое сообщение, что биржа пока держит вывод и его нужно повторить через 1–2 минуты; вывод при этом не отправлен.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
