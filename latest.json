@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.352",
-  "name": "ArbiBrowser-update-0.4.352.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.352/ArbiBrowser-update-0.4.352.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.352.tar.gz",
-  "sha256": "f4f44e685a684bbe2ca311019fe92327a531f1b866f97efa74d343fef83b5236",
-  "notes": "## ArbiBrowser v0.4.352\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — Ourbit: вывод прямым запросом — меньше секунды\n\nВывод с Ourbit идёт прямым запросом к бирже, без заполнения формы и без капчи: на проверке четыре вывода заняли 0,85–0,94 секунды (формой было 5–7 секунд). В этой версии из журнала убраны служебные строки сверки — они своё дело сделали.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.353",
+  "name": "ArbiBrowser-update-0.4.353.tar.gz",
+  "url": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.353.tar.gz",
+  "urlMirror": "https://raw.githubusercontent.com/Contento-R/ArbiBrowser-dist/main/ArbiBrowser-update-0.4.353.tar.gz",
+  "sha256": "df6ee910d504a775769e7a3b2d29db11f30e37f87437944546be069b31012931",
+  "notes": "## ArbiBrowser v0.4.353\n\nЧто изменилось в этой версии:\n\n### 🔧 Исправление — Ourbit: отмена вывода из терминала\n\nКнопка «Отменить» у вывода Ourbit в терминале теперь работает: отмена уходит запросом сайта биржи (раньше терминал отвечал «ключ только для чтения»). И запасной вывод формой открывает правильную страницу у монет, которые сайт называет иначе, чем биржа (например, AURAOLD).\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
