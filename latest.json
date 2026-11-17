@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.351",
-  "name": "ArbiBrowser-update-0.4.351.tar.gz",
-  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.351/ArbiBrowser-update-0.4.351.tar.gz",
-  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.351.tar.gz",
-  "sha256": "70d9faf680ed9c22e12c1da7beb0823142a6c4202581a10c8023b592d4d23b41",
-  "notes": "## ArbiBrowser v0.4.351\n\nЧто изменилось в этой версии:\n\n### 🔧 Исправление — Ourbit: только что купленная монета сразу видна в остатке\n\nПосле покупки новой монеты на Ourbit терминал показывал «Доступно 0» и не давал сумму для вывода: сайт биржи ещё не включил монету в свою сводку, а ArbiBrowser спрашивал остатки только по ней. Теперь остаток монеты, с которой вы работаете (открытая пара, заявка, вывод, депозит), запрашивается всегда.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.352",
+  "name": "ArbiBrowser-update-0.4.352.tar.gz",
+  "url": "https://github.com/Contento-R/ArbiBrowser-dist/releases/download/v0.4.352/ArbiBrowser-update-0.4.352.tar.gz",
+  "urlMirror": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.352.tar.gz",
+  "sha256": "f4f44e685a684bbe2ca311019fe92327a531f1b866f97efa74d343fef83b5236",
+  "notes": "## ArbiBrowser v0.4.352\n\nЧто изменилось в этой версии:\n\n### ⚡ Быстрее — Ourbit: вывод прямым запросом — меньше секунды\n\nВывод с Ourbit идёт прямым запросом к бирже, без заполнения формы и без капчи: на проверке четыре вывода заняли 0,85–0,94 секунды (формой было 5–7 секунд). В этой версии из журнала убраны служебные строки сверки — они своё дело сделали.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
