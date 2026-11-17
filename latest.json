@@ -1,8 +1,8 @@
 {
-  "version": "v0.4.353",
-  "name": "ArbiBrowser-update-0.4.353.tar.gz",
-  "url": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.353.tar.gz",
-  "urlMirror": "https://raw.githubusercontent.com/Contento-R/ArbiBrowser-dist/main/ArbiBrowser-update-0.4.353.tar.gz",
-  "sha256": "df6ee910d504a775769e7a3b2d29db11f30e37f87437944546be069b31012931",
-  "notes": "## ArbiBrowser v0.4.353\n\nЧто изменилось в этой версии:\n\n### 🔧 Исправление — Ourbit: отмена вывода из терминала\n\nКнопка «Отменить» у вывода Ourbit в терминале теперь работает: отмена уходит запросом сайта биржи (раньше терминал отвечал «ключ только для чтения»). И запасной вывод формой открывает правильную страницу у монет, которые сайт называет иначе, чем биржа (например, AURAOLD).\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
+  "version": "v0.4.354",
+  "name": "ArbiBrowser-update-0.4.354.tar.gz",
+  "url": "https://cdn.jsdelivr.net/gh/Contento-R/ArbiBrowser-dist@main/ArbiBrowser-update-0.4.354.tar.gz",
+  "urlMirror": "https://raw.githubusercontent.com/Contento-R/ArbiBrowser-dist/main/ArbiBrowser-update-0.4.354.tar.gz",
+  "sha256": "ece99166e6720f73c9973f8ca662853631dd065ea40442ad3205e7a086687e08",
+  "notes": "## ArbiBrowser v0.4.354\n\nЧто изменилось в этой версии:\n\n### 🔧 Исправление — Ourbit: остатки снова читаются (ошибка «код 44444»)\n\nВ версиях 0.4.351–0.4.353 запрос остатков Ourbit мог целиком отклоняться сайтом — терминал показывал ошибку и «Доступно 0», купленную монету нельзя было вывести из терминала. Исправлено: остатки монет, с которыми вы работаете, запрашиваются отдельно и общий запрос больше не ломают.\n\n---\nУстановщик для Windows — файл `ArbiBrowser-Setup.exe` ниже. Уже установленная программа предложит обновиться сама."
 }
